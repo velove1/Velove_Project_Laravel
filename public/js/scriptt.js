@@ -11,7 +11,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event){
 
   if (username === correctUsername && password === correctPassword){
     alert('Selamat Datang Di Pastel Bakery');
-    window.location.href = 'index.html';
+    window.location.href = 'resources/views/about.blade.php';
   }else{
     alert('Username atau password salah')
   }

@@ -2,146 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pastel Bakery</title>
-   <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <title>Simple Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-    <!-- header section starts -->
-
-    <header class="header">
-
-        <a href="#" class="logo"> 
-          <alt="">Pastel Bakery</a>
-
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#Product">product</a>
-            <a href="#footer">contact</a>
-        </nav>
-       
-        
-
+    <header class="bg-[#e4aaaa] py-12 text-center">
+        <h1 class="text-5xl font-extrabold">SELAMAT DATANG!</h1>
+        <p class="text-lg text-gray-700 mt-4">platform velove</p>
     </header>
 
-    <!-- header section ends -->
+    <main class="py-16">
+        <section class="featured-project text-center">
+            <h2 class="text-3xl font-semibold mb-4">Velove Fathya Nurkatsir</h2>
+            <img src="https://i.pinimg.com/564x/8a/33/97/8a339794daaa9fb45b1052f64ed1550e.jpg" width="200" height="200" alt="Gambar Proyek Unggulan" class="mx-auto border border-gray-300 rounded-lg shadow-lg">
+            <p class="text-lg mt-4">Ini foto saya.</p>
+        </section>
+    </main>
 
-    <!-- home section starts -->
+    <nav class="bg-white py-4 shadow-md">
+        <ul class="flex justify-center space-x-8">
+            <li><a href="#about" class="text-lg font-bold text-gray-800 hover:text-blue-500">My Cat</a></li>
+            <li><a href="#contact" class="text-lg font-bold text-gray-800 hover:text-blue-500">Contact</a></li>
+        </ul>
+    </nav>
 
-    <section class="home" id="home">
-
-        <div class="content">
-            <h3>Pastel <span>Bakery</span></h3>
-            <p>Pastel Bakery offers a delightful selection of freshly baked pastries and cakes, crafted with care and high-quality ingredients. Whether for special occasions or everyday treats, we bring a touch of sweetness to your life. </p>
-        </div>
-
-        <div class="image">
-            <img src="Aset/cupcake 3.jpg" alt="">
-        </div>
-
+    <section id="about" class="bg-[#f5e2e2] py-16 text-center">
+        <h2 class="text-3xl font-semibold mb-4">Aqis Skibidi</h2>
+        <img src="https://i.pinimg.com/736x/31/43/d6/3143d6c79e451e605cb42e65ac6b47a1.jpg" alt="Foto Profil" class="w-36 h-36 mx-auto rounded-full mb-4">
+        <p class="text-lg">Kucing dengan 1000 kemalsan dan suka pup sembarang.</p>
     </section>
 
-    <!-- home section ends -->
+    <section id="contact" class="bg-[#f5e2e2] py-16 text-center">
+        <h2 class="text-3xl font-semibold mb-8">Kontak</h2>
+        <form class="max-w-lg mx-auto">
+            <label for="name" class="block text-left mb-2 text-lg">Nama:</label>
+            <input type="text" id="name" name="name" required class="w-full p-3 mb-6 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-[#e4aaaa]">
 
-    <!-- about us section starts -->
+            <label for="email" class="block text-left mb-2 text-lg">Email:</label>
+            <input type="email" id="email" name="email" required class="w-full p-3 mb-6 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-[#e4aaaa]">
 
-    <section class="about" id="about">
+            <label for="message" class="block text-left mb-2 text-lg">Pesan:</label>
+            <textarea id="message" name="message" required class="w-full p-3 mb-6 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-[#e4aaaa]"></textarea>
 
-        <h1 class="heading"> <span>about</span> us</h1>
-
-        <div class="row">
-
-            <div class="image">
-                <img src="Aset/Hitam dan Putih Gading Minimal Elegan Menu Kue Mancanegara Tiramisu Instagram Square Post (5) 1.png" alt="">
-            </div>
-
-            <div class="content">
-                <h3>Welcome at Pastel Bakery!</h3>
-                <p>At Pastel Bakery, we are passionate about creating delicious, high-quality baked goods that bring joy to every occasion. Since our founding, we’ve been committed to using only the best ingredients to craft pastries and cakes that not only taste amazing but also look beautiful. Whether it’s a small treat or a custom cake for a special celebration, we take pride in making each creation with love and care. Our goal is to make every customer smile with our sweet and savory delights.</p>
-            
-            </div>
-
-        </div>
-
+            <button type="submit" class="w-full py-3 bg-[#e4aaaa] text-white font-bold rounded hover:bg-[#d09f9f] focus:outline-none focus:ring focus:ring-[#d09f9f]">Kirim</button>
+        </form>
     </section>
 
-    <!-- about us section ends -->
+    <footer class="bg-white py-4 text-center border-t border-gray-300">
+        <p class="text-sm text-gray-600">&copy; 2024 Veloveee</p>
+    </footer>
 
-    
-
-   
-   
-    <!-- Product section starts -->
-
-    <section class="Product" id="Product">
-
-        <h1 class="heading">Our <span>Product</span></h1>
-
-        <div class="container ">
-        <div class="product" >
-
-            <a href="Aset/Group 14.png" class="box">
-                <img src="Aset/Group tiramisu.png" alt="">
-            </a>
-
-            <a href="Aset/Groupcupcake (1).png" class="box">
-                <img src="Aset/Group cupcake.png" alt="">
-            </a>
-
-            <a href="Aset/Groupdonat.png" class="box">
-                <img src="Aset/donut.png" alt="">
-            </a>
-
-            <a href="Aset/brownies.png" class="box">
-                <img src="Aset/Group brownies.png" alt="">
-            </a>
-
-            <a href="Aset/Groupstrawberry.png" class="box">
-                <img src="Aset/Group strawberry cake.png" alt="">
-            </a>
-
-            <a href="Aset/Groupcoklat.png" class="box">
-                <img src="Aset/Group  coklat cake.png" alt="">
-            </a>
-
-        </div>
-        </div>
-
-    </section>
-
-    <!-- gallery section ends -->
-
-    <!-- footer section starts -->
-
-    <section class="footer"id="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-                <h3> </i> Pastel Bakery</h3>
-                <p>Pastelbakery@gmail.com</p>
-                <p>+62 812-2611-0448</p>
-                <p>@pastelbakery_</p>
-            </div>
-
-            <div class="box">
-                <h3>category</h3>
-                <a href="#about"> <i class="fas fa-caret-right"></i> about us</a>
-                <a href="#Product"> <i class="fas fa-caret-right"></i> Our product</a>
-                <a href="#foooter"> <i class="fas fa-caret-right"></i> contact us</a>
-            </div>
-        </div>
-
-    </section>
-    
-    <script src="script.js"></script>
-
-    <script>
-        lightGallery(document.querySelector('.product .product-container'));
-    </script>
 </body>
 </html>
