@@ -18,7 +18,8 @@
             <h2 class="text-3xl font-semibold mb-4">Velove Fathya Nurkatsir</h2>
             <img src="https://i.pinimg.com/564x/8a/33/97/8a339794daaa9fb45b1052f64ed1550e.jpg" width="200" height="200" alt="Gambar Proyek Unggulan" class="mx-auto border border-gray-300 rounded-lg shadow-lg">
             <p class="text-lg mt-4">Ini foto saya.</p>
-        </section>
+            <a href="{{ route ('about') }}"class="text=1xl font-bold mb-4">Selengkapnya...</a>
+       </section>
     </main>
 
     <nav class="bg-white py-4 shadow-md">

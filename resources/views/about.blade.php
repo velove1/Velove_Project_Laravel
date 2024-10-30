@@ -6,12 +6,13 @@
   @vite('resources/css/app.css')
 </head>
 <body >
-    <header class = 'bg-slate-200' >
+    <header class = 'bg-red-100' >
     <div class="container mx-auto p-5 flex justify-center items-center">
-  <h1 class="text-2xl font-bold underline text-violet-500">
+  <h1 class="text-2xl font-bold underline text-black">
     About Me!
   </h1>
 </div>
 </header>
+<a href="{{ route ('home') }}"class="text=1xl font-bold mb-4">kembali</a>
 </body>
 </html>
