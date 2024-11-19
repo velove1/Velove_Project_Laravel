@@ -33,6 +33,8 @@
         <h2 class="text-3xl font-semibold mb-4">Aqis Skibidi</h2>
         <img src="https://i.pinimg.com/736x/31/43/d6/3143d6c79e451e605cb42e65ac6b47a1.jpg" alt="Foto Profil" class="w-36 h-36 mx-auto rounded-full mb-4">
         <p class="text-lg">Kucing dengan 1000 kemalsan dan suka pup sembarang.</p>
+        <a href="{{ route ('gallery') }}"class="text=1xl font-bold mb-4">Gallery Aqis...</a>
+       </section>
     </section>
 
     <section id="contact" class="bg-[#f5e2e2] py-16 text-center">

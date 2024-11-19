@@ -22,3 +22,4 @@ Route::get('/welcome', function () {
 Route::get('/', [HomeConrtoller::class, 'index'])->name('home');
 Route::get('/login', [HomeConrtoller::class, 'login'])->name('login');
 Route::get('/about', [HomeConrtoller::class, 'about'])->name('about');
+Route::get('/gallery', [HomeConrtoller::class, 'gallery'])->name('gallery');
